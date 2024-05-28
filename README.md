@@ -13,4 +13,4 @@ para marcar alguna seccion o subseccin estos marcan utilizando el simbolo # ,ent
 #Encabezado de Nivel 4
 #Encabezado de Nivel 5
 #Encabezado de Nivel 6
-#Encabezado de Nivel 7(solo considera los primeros seis niveles)
+#Encabezado de Nivel 7(solo considera los primeros seis niveles) 

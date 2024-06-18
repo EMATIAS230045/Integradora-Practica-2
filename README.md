@@ -255,12 +255,12 @@ Dado que el ejemplo pasado solo utiliza Mark down no se puede realizar la funci√
     <td colspan="3" align="center">file 2 celda 2</td>
   </tr>
     <tr>
+    <td rowspan="3 align="center">file 4 celda 1</td>
     <td>file 3 celda 2</td>
     <td>file 3 celda 3</td>
     <td>file 3 celda 4</td>
   </tr>
     <tr>
-    <td rowspan="3 align="center">file 4 celda 1</td>
     <td>file 4 celda 2</td>
     <td>file 4 celda 3</td>
     <td>file 4 celda 4</td>

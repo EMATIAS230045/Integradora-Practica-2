@@ -162,7 +162,8 @@ Para crear tu primer repositorio en GitHub deberás:
  <li>Sexto</li>
  <li>Séptimo</li>
  </ol>
- ### 7.Ligas (Hípervinculos)
+
+### 7. Ligas hipervinculos
 Las ligas son utilizadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el. Y se maquetan utilizando los corchetes \[ \], inmediatamente despues pondremos la liga de referencia entre parentesis \( \)
 
 **EJEMPLO:**
@@ -172,7 +173,89 @@ Pero si deseamos poner solo las ligas directas o un correo electronico podemos u
 
 **EJEMPLO:**
 
-Documentación creada por: ***Alumna Erick Matias Granillo Mejia ***
+Documentación creada por: ***Alumno Erick Matias Granillo Mejia ***
 <230045@utxicotepec.edu.mx>
 
 <http://www.utxicotepec.edu.mx
+
+### 7. Tablas (TABLES)
+Si la si la documentación lo requiere podemos presentar información en formato de tablas con columnas para mantenerlas podemos utilizar el carácter | para delimitar las columnas y -P de limitar las filas 
+
+**EJEMPLO:**
+<table>
+  <tr>
+  <th>Encabezado1</th>
+  <th>Encabezado2</th>
+  <th>Encaberado3</th>
+  <th>Encabezado4</th>
+</tr>
+  <tr>
+    <td>file 1 celda 1</td>
+    <td>file 2 celda 1</td>
+    <td>file 3 celda 1</td>
+    <td>file 4 celda 1</td>
+  </tr>
+    <tr>
+    <td>file 1 celda 2</td>
+    <td>file 2 celda 2</td>
+    <td>file 3 celda 2</td>
+    <td>file 4 celda 2</td>
+  </tr>
+    <tr>
+    <td>file 1 celda 3</td>
+    <td>file 2 celda 3</td>
+    <td>file 3 celda 3</td>
+    <td>file 4 celda 3</td>
+  </tr>
+    <tr>
+    <td>file 1 celda 4</td>
+    <td>file 2 celda 4</td>
+    <td>file 3 celda 4</td>
+    <td>file 4 celda 4</td>
+  </tr>
+</table>
+
+En caso de necesitar la funcion de celdas en cloumnas usaremos la propiedad colspan para unir las celdas y en el caso de la fusion de las filas utilizaremos la propiedad rowspan
+**EJEMPLO:**
+<table>
+  <tr>
+  <th>Encabezado1</th>
+  <th>Encabezado2</th>
+  <th>Encaberado3</th>
+  <th>Encabezado4</th>
+</tr>
+  <tr>
+    <td>file 1 celda 1</td>
+    <td>file 1 celda 2</td>
+    <td>file 1 celda 3</td>
+    <td>file 1 celda 4</td>
+  </tr>
+    <tr>
+    <td>file 2 celda 1</td>
+    <td colspan="2">file 2 celda 2</td>
+    <td>file 2 celda 4</td>
+  </tr>
+    <tr>
+    <td>file 3 celda 1</td>
+    <td>file 3 celda 2</td>
+    <td>file 3 celda 3</td>
+    <td>file 3 celda 4</td>
+  </tr>
+    <tr>
+    <td colspan="2" text-align:left;>file 4 celda 2</td>
+    <td>file 4 celda 3</td>
+    <td>file 4 celda 4</td>
+  </tr>
+  <tr>
+    <td>file 5 celda 1</td>
+    <td>file 5 celda 2</td>
+    <td>file 5 celda 3</td>
+    <td>file 5 celda 4</td>
+  </tr>
+  <tr>
+    <td>file 6 celda 1</td>
+    <td>file 6 celda 2</td>
+    <td>file 6 celda 3</td>
+    <td>file 6 celda 4</td>
+  </tr>
+</table>
